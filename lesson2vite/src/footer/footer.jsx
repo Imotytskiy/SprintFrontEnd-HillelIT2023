@@ -15,11 +15,9 @@ const Footer = () => {
               <div>UpDate</div>
             </h4>
             <a href="">
-              <p>support@update.com</p>
+              <h4>support@update.com</h4>
             </a>
-            <a href="">
-              <p>+1 (213) 677 10 24</p>
-            </a>
+            <a href="tel.">+1 (213) 677 10 24</a>
             <a href="">
               <div className="socialmedia">
                 <img src={fb} alt="" />
