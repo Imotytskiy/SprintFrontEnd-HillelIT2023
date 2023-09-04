@@ -66,8 +66,9 @@ a {
 .sb_footer-below {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 0.2rem;
+  color: #6d6d77;
 }
 
 .sb_footer-below-copyright p {
@@ -77,7 +78,7 @@ a {
   font-weight: 800;
 }
 
-/* @media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .sb_footer-heading h1 {
     font-size: 34px;
     line-height: 42px;
@@ -86,4 +87,4 @@ a {
     flex-direction: column;
     justify-content: center;
   }
-} */
+}
