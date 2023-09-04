@@ -1,23 +1,34 @@
 import React from "react";
+import fb from "../assets/Facebook.png";
+import youtube from "../assets/Youtube.png";
+import twitter from "../assets/Twitter.png";
+import logo from "../assets/logo.png";
 import "./footer.css";
-import fb from "../assets/";
 const Footer = () => {
   return (
     <div className="footer">
       <div className="sb_footer section_padding">
         <div className="sb_footer-links">
-          <p>
-            <img src={fb} alt="" />
-          </p>
-          <p>
-            <img src={youtube} alt="" />
-          </p>
-          <p>
-            <img src={twitter} alt="" />
-          </p>
-        </div>
-        <div className="sb_footer-links">
-          <div className="sb_footer-link-div">
+          <div className="sb_footer-links_div">
+            <h4 className="logo">
+              <img src={logo} alt="" />
+              <div>UpDate</div>
+            </h4>
+            <a href="">
+              <p>support@update.com</p>
+            </a>
+            <a href="">
+              <p>+1 (213) 677 10 24</p>
+            </a>
+            <a href="">
+              <div className="socialmedia">
+                <img src={fb} alt="" />
+                <img src={youtube} alt="" />
+                <img src={twitter} alt="" />
+              </div>
+            </a>
+          </div>
+          <div className="sb_footer-links_div">
             <h4>Courses</h4>
             <a href="">
               <p>Animation</p>
@@ -37,44 +48,46 @@ const Footer = () => {
             <a href="">
               <p>Marketing</p>
             </a>
-            <div className="sb_footer-link-div">
-              <h4>Teachers</h4>
-              <a href="">
-                <p>All Teachers</p>
-              </a>
-              <a href="">
-                <p>Become a Teacher</p>
-              </a>
-              <div className="sb_footer-link-div">
-                <h4>Information</h4>
-                <a href="">
-                  <p>Blog</p>
-                </a>
-                <a href="">
-                  <p>About us</p>
-                </a>
-                <a href="">
-                  <p>FAQ</p>
-                </a>
-                <h4>En</h4>
-                <a href="">
-                  <p>English </p>
-                </a>
-                <a href="">
-                  <p>French</p>
-                </a>
-                <a href="">
-                  <p>Russia</p>
-                </a>
-              </div>
-            </div>
+          </div>
+          <div className="sb_footer-links_div">
+            <h4>Teachers</h4>
+            <a href="">
+              <p>All Teachers</p>
+            </a>
+            <a href="">
+              <p>Become a Teacher</p>
+            </a>
+          </div>
+          <div className="sb_footer-links_div">
+            <h4>Information</h4>
+            <a href="">
+              <p>Blog</p>
+            </a>
+            <a href="">
+              <p>About us</p>
+            </a>
+            <a href="">
+              <p>FAQ</p>
+            </a>
+          </div>
+          <div className="sb_footer-links_div">
+            <h4>En</h4>
+            <a href="">
+              <p>English </p>
+            </a>
+            <a href="">
+              <p>French</p>
+            </a>
+            <a href="">
+              <p>Russia</p>
+            </a>
           </div>
         </div>
         <div className="sb_footer-below">
           <div className="sb_footer-copyright">
             <p>
-              Policy privacy Copyright @{newDate().getFullYear()}. All rights
-              reserved
+              Policy privacy Copyright &copy; {new Date().getFullYear()}. All
+              rights reserved.
             </p>
           </div>
         </div>
