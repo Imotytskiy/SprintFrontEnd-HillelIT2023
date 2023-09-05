@@ -1,11 +1,31 @@
 import React from "react";
-// import fb from "../assets/Facebook.png";
-// import youtube from "../assets/Youtube.png";
-// import twitter from "../assets/Twitter.png";
-// import logo from "../assets/logo.png";
+import logo from "../../assets/logohead.png";
 import "./navbar.css";
 const Navbar = () => {
-  return <h1>NAVBAR</h1>;
+  return (
+    <header className="header">
+      <a href="index.html">
+        <img src={logo} alt="logo" />
+        UpDate
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Courses</a>
+          </li>
+          <li>
+            <a href="#">Teachers</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#">EN</a>
+      <a href="#">Sign IN</a>
+      <a href="#">Trial Free</a>
+    </header>
+  );
 };
 
 export default Navbar;

@@ -14,15 +14,15 @@ const Footer = () => {
               <img src={logo} alt="" />
               <div>UpDate</div>
             </h4>
-            <a href="">
+            <a href="mailto:support@update.com">
               <h4>support@update.com</h4>
             </a>
-            <a href="tel.">+1 (213) 677 10 24</a>
-            <a href="">
+            <a href="tel:+12136771024">+1 (213) 677 10 24</a>
+            <a href="#">
               <div className="socialmedia">
-                <img src={fb} alt="" />
-                <img src={youtube} alt="" />
-                <img src={twitter} alt="" />
+                <img src={fb} alt="facebook" />
+                <img src={youtube} alt="youtube" />
+                <img src={twitter} alt="twitter" />
               </div>
             </a>
           </div>
