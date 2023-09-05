@@ -1,8 +1,8 @@
 import React from "react";
-import fb from "../assets/Facebook.png";
-import youtube from "../assets/Youtube.png";
-import twitter from "../assets/Twitter.png";
-import logo from "../assets/logo.png";
+import fb from "../../assets/Facebook.png";
+import youtube from "../../assets/Youtube.png";
+import twitter from "../../assets/Twitter.png";
+import logo from "../../assets/logo.png";
 import "./footer.css";
 const Footer = () => {
   return (
