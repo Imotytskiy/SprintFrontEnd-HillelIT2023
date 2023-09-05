@@ -1,8 +1,8 @@
-h1 {
-  color: blue;
+li {
+  list-style: none;
 }
 
-a {
+.navbar_a {
   color: black;
   text-decoration: none;
 }

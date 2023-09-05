@@ -3,27 +3,39 @@ import logo from "../../assets/logohead.png";
 import "./navbar.css";
 const Navbar = () => {
   return (
-    <header className="header">
-      <a href="index.html">
+    <header className="navbar">
+      <a class="navbar_a" href="index.html">
         <img src={logo} alt="logo" />
         UpDate
       </a>
       <nav>
         <ul>
           <li>
-            <a href="#">Courses</a>
+            <a class="navbar_a" href="#">
+              Courses
+            </a>
           </li>
           <li>
-            <a href="#">Teachers</a>
+            <a class="navbar_a" href="#">
+              Teachers
+            </a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a class="navbar_a" href="#">
+              Blog
+            </a>
           </li>
         </ul>
       </nav>
-      <a href="#">EN</a>
-      <a href="#">Sign IN</a>
-      <a href="#">Trial Free</a>
+      <a class="navbar_a" href="#">
+        EN
+      </a>
+      <a class="navbar_a" href="#">
+        Sign IN
+      </a>
+      <a class="navbar_a" href="#">
+        Trial Free
+      </a>
     </header>
   );
 };

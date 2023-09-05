@@ -1,9 +1,11 @@
 import React from "react";
+import Navbar from "../navbar/navbar";
 import "./body.css";
 
 const Body = () => {
   return (
-    <main className={}>
+    <main class="body">
+      <Navbar />
       <section>
         <h1>Explore thousands of hands on creative classes.</h1>
         <p class="offer ">
