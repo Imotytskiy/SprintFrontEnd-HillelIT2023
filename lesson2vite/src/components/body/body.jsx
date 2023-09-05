@@ -2,7 +2,29 @@ import React from "react";
 import "./body.css";
 
 const Body = () => {
-  return <div className="body-div">BODY</div>;
+  return (
+    <main className={}>
+      <section>
+        <h1>Explore thousands of hands on creative classes.</h1>
+        <p class="offer ">
+          Start learning <a href="">free</a>
+        </p>
+        <button className="">Chooose a course</button>
+        <p>50%</p>
+        <p class="offer__time">
+          <time>24 days 17:44:16</time>
+        </p>
+        <ul>
+          <li>Marketer</li>
+          <li>Illustrator</li>
+          <li>Programmer</li>
+          <li>Designer</li>
+          <li>Photographer</li>
+          <li>Marketer</li>
+        </ul>
+      </section>
+    </main>
+  );
 };
 
 export default Body;
