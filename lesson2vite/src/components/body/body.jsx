@@ -4,16 +4,16 @@ import "./body.css";
 
 const Body = () => {
   return (
-    <main class="body">
+    <main className="body">
       <Navbar />
       <section>
         <h1>Explore thousands of hands on creative classes.</h1>
-        <p class="offer ">
+        <p className="offer ">
           Start learning <a href="">free</a>
         </p>
         <button className="">Chooose a course</button>
         <p>50%</p>
-        <p class="offer__time">
+        <p className="offer__time">
           <time>24 days 17:44:16</time>
         </p>
         <ul>
@@ -24,6 +24,12 @@ const Body = () => {
           <li>Photographer</li>
           <li>Marketer</li>
         </ul>
+      </section>
+      <section className='learn'>
+        <div className='learn_text'>
+          <h2 className='learn_title'>Explore thousands of hands-on creative classes.</h2>
+        </div>
+
       </section>
     </main>
   );
