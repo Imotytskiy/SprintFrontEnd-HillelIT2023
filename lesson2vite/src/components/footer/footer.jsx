@@ -2,7 +2,7 @@
 import fb from "../../assets/Facebook.png";
 import youtube from "../../assets/Youtube.png";
 import twitter from "../../assets/Twitter.png";
-import logo from "../../assets/logo.png";
+import logo from "./img/logofooter.svg";
 import "./footer.css";
 const Footer = () => {
   return (
