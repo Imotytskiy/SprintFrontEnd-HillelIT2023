@@ -1,4 +1,4 @@
-import React from "react";
+
 import fb from "../../assets/Facebook.png";
 import youtube from "../../assets/Youtube.png";
 import twitter from "../../assets/Twitter.png";
