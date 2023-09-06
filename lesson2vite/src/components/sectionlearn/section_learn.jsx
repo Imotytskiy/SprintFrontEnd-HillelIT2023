@@ -1,10 +1,10 @@
-import React from "react";
+
 import "./section_learn.css";
 const SectionLearn = () => {
   return (
-    <section class="learn">
-      <div class="learn__text">
-        <h2 class="learn__title">What you eill learn</h2>
+    <section className="learn">
+      <div className="learn__text">
+        <h2 className="learn__title">What you eill learn</h2>
         <p>
           Up-to-date knowledge from recognized market experts for beginners and
           practitioners
@@ -15,21 +15,21 @@ const SectionLearn = () => {
           relevance of the material and help with employment and internship
         </p>
       </div>
-      <div class="learn__counters">
-        <div class="learn__counter-item">
-          <p class="learn__counter-number">56</p>
+      <div className="learn__counters">
+        <div className="learn__counter-item">
+          <p className="learn__counter-number">56</p>
         </div>
         <p className="learn__counter-description">Curators</p>
       </div>
-      <div class="learn__counters">
-        <div class="learn__counter-item">
-          <p class="learn__counter-number">108</p>
+      <div className="learn__counters">
+        <div className="learn__counter-item">
+          <p className="learn__counter-number">108</p>
         </div>
         <p className="learn__counter-description"></p>
       </div>
-      <div class="learn__counters">
-        <div class="learn__counter-item">
-          <p class="learn__counter-number">3723</p>
+      <div className="learn__counters">
+        <div className="learn__counter-item">
+          <p className="learn__counter-number">3723</p>
         </div>
         <p className="learn__counter-description">Graduates</p>
       </div>
