@@ -1,5 +1,5 @@
 
-import Navbar from "../navbar/navbar";
+import Navbar from '../navbar/navbar';
 import "./body.css";
 
 const Body = () => {
