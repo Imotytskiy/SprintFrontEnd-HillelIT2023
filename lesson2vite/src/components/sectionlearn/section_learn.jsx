@@ -87,9 +87,7 @@ const SectionLearn = () => {
 
       </ul>
       <a href="#">See more <img src={arrow} alt="see arrow" /></a>
-      
-    </section>
-    <div className="discover__cards">
+      <div className="discover__cards">
       <article>
         <img src={marketing} alt="marketing card" />
         <h3 className="discover__card-item">Sales Marketing</h3>
@@ -111,6 +109,21 @@ const SectionLearn = () => {
         <p className="discover__card-length">8 months</p>
       </article>
       </div>
+      
+    </section>
+    <section className="find-program">
+      <div className="find-program__text">
+        <h2 className="find-program__title">Can&apos;t find a suitable program?</h2>
+        <p className="find-program__descript">We will help you with the choice!</p>
+      </div>
+      <form action="https://fom.in.ua/echo" className="find-program__form">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="text" name="email" placeholder="Email" required/>
+        <button className="find-program__button">
+        Help me
+        </button>
+      </form>
+    </section>
     </>
   );
 };
