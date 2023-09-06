@@ -3,5 +3,11 @@
   margin-right: auto;
   max-width: 1920px;
   max-height: 1080px;
+  background-image: url('./img/gradient.png');;
   background-color: rgba(239, 239, 242, 1);
+}
+.offer__men {
+    position: relative;
+    left: -300px; 
+    top: -200px; 
 }
