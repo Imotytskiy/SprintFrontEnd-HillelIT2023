@@ -1,4 +1,4 @@
-import React from "react";
+
 import Navbar from "../navbar/navbar";
 import "./body.css";
 
@@ -24,12 +24,6 @@ const Body = () => {
           <li>Photographer</li>
           <li>Marketer</li>
         </ul>
-      </section>
-      <section className='learn'>
-        <div className='learn_text'>
-          <h2 className='learn_title'>Explore thousands of hands-on creative classes.</h2>
-        </div>
-
       </section>
     </main>
   );
