@@ -86,6 +86,7 @@ const SectionLearn = () => {
         </li>
 
       </ul>
+      
       <a href="#">See more <img src={arrow} alt="see arrow" /></a>
       <div className="discover__cards">
       <article>
