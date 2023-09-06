@@ -1,5 +1,7 @@
 
 import Navbar from '../navbar/navbar';
+import SectionLearn from '../sectionlearn/section_learn';
+import Footer from '../footer/footer';
 import "./body.css";
 
 const Body = () => {
@@ -25,6 +27,8 @@ const Body = () => {
           <li>Marketer</li>
         </ul>
       </section>
+      <SectionLearn />
+      <Footer />
     </main>
   );
 };

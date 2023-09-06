@@ -1,10 +1,10 @@
 
 import "./section_learn.css";
-import arrow from '../../assets/see_arrow.svg';
-import analitics from '../../assets/analitics.jpg';
-import animation from '../../assets/animation.jpg';
-import art from '../../assets/art.jpg';
-import marketing from '../../assets/marketing.jpg';
+import arrow from './img/see_arrow.svg';
+import analitics from './img/analitics.jpg';
+import animation from './img/animation.jpg';
+import art from './img/art.jpg';
+import marketing from './img/marketing.jpg';
 const SectionLearn = () => {
   return (
     <>
