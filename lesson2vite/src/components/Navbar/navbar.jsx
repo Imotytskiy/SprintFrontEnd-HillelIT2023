@@ -3,13 +3,14 @@ import logo from "./img/logohead.svg";
 import "./navbar.css";
 const Navbar = () => {
   return (
-    <header className="navbar">
-      <a className="navbar_a" href="index.html">
+    <header className="container header">
+      <div className="header__box">
+      <a className="logo" href="index.html">
         <img src={logo} alt="logo" />
         UpDate
       </a>
-      <nav>
-        <ul>
+      <nav className="nav">
+        <ul className="nav__list">
           <li>
             <a className="navbar_a" href="#">
               Courses
@@ -27,6 +28,8 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
+      </div>
+      <div className="btn_box">
       <a className="navbar_a" href="#">
         EN
       </a>
@@ -36,6 +39,7 @@ const Navbar = () => {
       <a className="navbar_a" href="#">
         Trial Free
       </a>
+      </div>
     </header>
   );
 };
