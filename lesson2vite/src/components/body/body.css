@@ -1,9 +1,26 @@
 .body {
-  background: #EFEFF2;
+  /* background: #efeff2; */
   margin: 0;
   color: #19191c;
   font: 400 18px/28px Inter, sans-serif;
 
   /* background-image: url('./img/gradient.png');; */
   /* background-color: rgba(239, 239, 242, 1); */
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.offer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer__holder {
+  width: 648px;
+}
+
+.offer__rectangle {
+  /* z-index: -1; */
 }

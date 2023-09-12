@@ -7,19 +7,24 @@ import "./body.css";
 
 const Body = () => {
   return (
-    <main className="body">
+    <main className="body conteiner">
       <Navbar />
-      <section>
-        <img src="" alt="" />
-        <h1>Explore thousands of hands on creative classes.</h1>
-        <p className="offer ">
-          Start learning <a href="">free</a>
-        </p>
-        <button className="">Chooose a course</button>
-        <p>50%</p>
-        <p className="offer__time">
-          <time>24 days 17:44:16</time>
-        </p>
+      <section className="offer container">
+        <div className="offer__holder">
+          <img src="" alt="" />
+          <h1 className="offer__title">
+            Explore thousands of hands on creative classes.
+          </h1>
+          <p className="offer__description">
+            Start learning <a href="">free</a>
+          </p>
+          <button className="">Chooose a course</button>
+          <p>50%</p>
+          <p className="offer__time">
+            <time>24 days 17:44:16</time>
+          </p>
+        </div>
+
         <ul>
           <li>Marketer</li>
           <li>Illustrator</li>
@@ -30,7 +35,7 @@ const Body = () => {
         </ul>
 
         <img className="offer__men" src={men} alt="men" />
-        <img className="offe__rectangle" src={rectangle} alt="rectangle" />
+        <img className="offer__rectangle" src={rectangle} alt="rectangle" />
       </section>
       <SectionLearn />
       <Footer />
