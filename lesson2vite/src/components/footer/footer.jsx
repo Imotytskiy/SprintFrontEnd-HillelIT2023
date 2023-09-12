@@ -17,9 +17,9 @@ const Footer = () => {
               className="sb_footer-links_diva"
               href="mailto:support@update.com"
             >
-              <h4>support@update.com</h4>
+              <h4 className="footer__support">support@update.com</h4>
             </a>
-            <a className="sb_footer-links_diva" href="tel:+12136771024">
+            <a className="sb_footer-links_diva tel" href="tel:+12136771024">
               +1 (213) 677 10 24
             </a>
             <a href="#">
