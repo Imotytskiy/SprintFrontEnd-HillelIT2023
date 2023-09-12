@@ -28,6 +28,7 @@ const Body = () => {
           <li>Photographer</li>
           <li>Marketer</li>
         </ul>
+
         <img className="offer__men" src={men} alt="men" />
         <img className="offe__rectangle" src={rectangle} alt="rectangle" />
       </section>
