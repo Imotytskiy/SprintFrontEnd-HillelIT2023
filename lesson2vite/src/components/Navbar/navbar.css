@@ -71,3 +71,7 @@
   line-height: 22px;
   font-weight: 700;
 }
+
+.header__link-img {
+  margin-left: 5px;
+}

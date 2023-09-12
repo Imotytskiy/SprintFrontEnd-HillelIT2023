@@ -1,15 +1,15 @@
 import Navbar from "../navbar/navbar";
-import SectionLearn from "../sectionlearn/section_learn";
+// import SectionLearn from "../sectionlearn/section_learn";
 import Footer from "../footer/footer";
-import men from "./img/men.png";
-import rectangle from "./img/rectangle.svg";
+// import men from "./img/men.png";
+// import rectangle from "./img/rectangle.svg";
 import "./body.css";
 
 const Body = () => {
   return (
-    <main className="body conteiner">
+    <main className="body container">
       <Navbar />
-      <section className="offer container">
+      {/* <section className="offer container">
         <div className="offer__holder">
           <img src="" alt="" />
           <h1 className="offer__title">
@@ -36,8 +36,8 @@ const Body = () => {
 
         <img className="offer__men" src={men} alt="men" />
         <img className="offer__rectangle" src={rectangle} alt="rectangle" />
-      </section>
-      <SectionLearn />
+      </section> */}
+      {/* <SectionLearn /> */}
       <Footer />
     </main>
   );

@@ -1,4 +1,5 @@
 import logo from "./img/logohead.svg";
+import courses from "./img/courses.svg";
 import "./navbar.css";
 const Navbar = () => {
   return (
@@ -14,6 +15,7 @@ const Navbar = () => {
             <li>
               <a className="link" href="#">
                 Courses
+                <img className="header__link-img" src={courses} alt="courses" />
               </a>
             </li>
             <li>
@@ -32,6 +34,7 @@ const Navbar = () => {
       <div className="btn__box">
         <a className="header__link" href="#">
           EN
+          <img className="header__link-img" src={courses} alt="courses" />
         </a>
         <a className="header__link" href="#">
           Sign IN
