@@ -1,26 +1,99 @@
 .body {
-  /* background: #efeff2; */
+  background: #efeff2;
   margin: 0;
   color: #19191c;
   font: 400 18px/28px Inter, sans-serif;
-
-  /* background-image: url('./img/gradient.png');; */
-  /* background-color: rgba(239, 239, 242, 1); */
-}
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .offer {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 230px;
+  background: url(./img/men.png) 100% 100% no-repeat;
 }
 
-.offer__holder {
+.offer__holder {+
   width: 648px;
+  padding-top: 80px;
+  background-image: url(./img/gradient.png);
+}
+.offer__title {
+  font-size: 58px;
+  line-height: 70px;
+  font-weight: 700;
+  margin: 0 0 18px;
+}
+.offer__link {
+  font-weight: 700;
+  text-decoration: none;
+  color: #504dee;
+}
+.offer__button {
+  background: #504dee;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fbfbfc;
+  border: none;
+  padding: 16px 37px;
+  font-size: 18px;
+  margin: 0 0 110px;
 }
 
-.offer__rectangle {
-  /* z-index: -1; */
+.offer__sale {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+  margin: 0;
+}
+.offer__time {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  margin: 0;
+}
+.offer__list {
+  align-self: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+  position: relative;
+}
+.offer__item {
+  position: absolute;
+  border: 2px solid #19191c;
+  padding: 16px 36px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.offer_marketer {
+  top: 20px;
+  right: 20px;
+}
+.offer_illustrator {
+  top: -60px;
+  right: 220px;
+}
+.offer_programmer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.offer_designer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.offer_photographer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.offer_marketer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
