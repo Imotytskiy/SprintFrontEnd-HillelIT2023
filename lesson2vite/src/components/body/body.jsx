@@ -1,8 +1,6 @@
 import Navbar from "../navbar/navbar";
 import SectionLearn from "../sectionlearn/section_learn";
 import Footer from "../footer/footer";
-import men from "./img/men.png";
-import rectangle from "./img/rectangle.svg";
 import "./body.css";
 
 const Body = () => {
