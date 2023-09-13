@@ -25,7 +25,7 @@ const Body = () => {
           </p>
         </div>
 
-        <ul className="off  er__list">
+        <ul className="offer__list">
           <li className="offer_marketer offer__item">Marketer</li>
           <li className="offer_animator offer__item">Animator</li>
           <li className="offer_illustrator offer__item">Illustrator</li>

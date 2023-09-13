@@ -7,13 +7,14 @@
 
 .offer {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   padding-bottom: 230px;
   background: url(./img/men.png) 100% 100% no-repeat;
 }
 
-.offer__holder {+
+.offer__holder {
   width: 648px;
   padding-top: 80px;
   background-image: url(./img/gradient.png);
