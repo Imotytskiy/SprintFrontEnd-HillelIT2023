@@ -1,0 +1,9 @@
+.learn {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+  background: black;
+  color: aliceblue;
+  font-family: "Inter";
+}

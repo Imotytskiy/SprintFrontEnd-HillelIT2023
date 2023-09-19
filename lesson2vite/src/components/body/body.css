@@ -75,22 +75,22 @@
   right: 20px;
 }
 .offer_illustrator {
-  top: -60px;
-  right: 220px;
+  top: -600px;
+  right: 420px;
 }
 .offer_programmer {
   position: absolute;
-  top: 20px;
+  top: -200px;
   right: 20px;
 }
 .offer_designer {
   position: absolute;
-  top: 20px;
+  top: -300px;
   right: 20px;
 }
 .offer_photographer {
   position: absolute;
-  top: 20px;
+  top: -400px;
   right: 20px;
 }
 .offer_marketer {
