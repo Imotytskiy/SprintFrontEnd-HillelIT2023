@@ -24,51 +24,58 @@ const SectionLearn = () => {
           <div className="learn__counter-item">
             <p className="learn__counter-number">56</p>
           </div>
-          <p className="learn__counter-descript">Curators</p>
+          <p className="learn__counter-descript">Courses</p>
+          <hr className="horizontal-line"></hr>
         </div>
+
         <div className="learn__counters">
           <div className="learn__counter-item">
             <p className="learn__counter-number">108</p>
           </div>
-          <p className="learn__counter-descript"></p>
+          <p className="learn__counter-descript">Curators</p>
+          <hr className="horizontal-line"></hr>
         </div>
         <div className="learn__counters">
           <div className="learn__counter-item">
             <p className="learn__counter-number">3723</p>
           </div>
-          <p className="learn__counter-description">Graduates</p>
+          <p className="learn__counter-descript">Graduates</p>
+          <hr className="horizontal-line"></hr>
         </div>
       </section>
       <section className="discover">
         <h2 className="discover__title">Discover Lifelong Learning</h2>
-        <ul className="discover__list">
-          <li>
-            <button className="discover__button">Popular</button>
-          </li>
-          <li>
-            <button className="discover__button">Animation</button>
-          </li>
-          <li>
-            <button className="discover__button">Design</button>
-          </li>
-          <li>
-            <button className="discover__button">Illustration</button>
-          </li>
-          <li>
-            <button className="discover__button">Programming</button>
-          </li>
-          <li>
-            <button className="discover__button">Photo & Film</button>
-          </li>
+        <div className="discover__block">
+          <ul className="discover__list">
+            <li>
+              <button className="discover__button">Popular</button>
+            </li>
+            <li>
+              <button className="discover__button">Animation</button>
+            </li>
+            <li>
+              <button className="discover__button">Design</button>
+            </li>
+            <li>
+              <button className="discover__button">Illustration</button>
+            </li>
+            <li>
+              <button className="discover__button">Programming</button>
+            </li>
+            <li>
+              <button className="discover__button">Photo & Film</button>
+            </li>
 
-          <li>
-            <button className="discover__button">Marketing</button>
-          </li>
-        </ul>
-
-        <a href="#">
-          See more <img src={arrow} alt="see arrow" />
-        </a>
+            <li>
+              <button className="discover__button">Marketing</button>
+            </li>
+          </ul>
+          <div>
+            <a className="discover__button-see" href="#">
+              <span>See more</span> <img src={arrow} alt="see arrow" />
+            </a>
+          </div>
+        </div>
         <div className="discover__cards">
           <article>
             <img src={marketing} alt="marketing card" />

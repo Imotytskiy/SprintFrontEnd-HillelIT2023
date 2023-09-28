@@ -62,7 +62,6 @@
   position: relative;
 }
 .offer__item {
-  position: absolute;
   border: 2px solid #19191c;
   padding: 16px 36px;
   font-weight: 600;
@@ -70,31 +69,34 @@
   line-height: 28px;
 }
 
+.offer_animator {
+  position: absolute;
+  top: -531px;
+  right: 583px;
+}
+
 .offer_marketer {
-  top: 20px;
-  right: 20px;
+  position: absolute;
+  top: -533px;
+  right: 122px;
 }
 .offer_illustrator {
-  top: -600px;
-  right: 420px;
+  position: absolute;
+  top: -629px;
+  right: 380px;
 }
 .offer_programmer {
   position: absolute;
-  top: -200px;
-  right: 20px;
+  top: -338px;
+  right: 691px;
 }
 .offer_designer {
   position: absolute;
-  top: -300px;
-  right: 20px;
+  top: -175px;
+  right: 840px;
 }
 .offer_photographer {
   position: absolute;
-  top: -400px;
-  right: 20px;
-}
-.offer_marketer {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+  top: -20px;
+  right: 709px;
 }
