@@ -23,12 +23,14 @@
 }
 .nav {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 50px;
 }
 
 .nav__list {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   gap: 48px;
   padding: 0;
@@ -43,6 +45,7 @@
 }
 
 .btn__box {
+  flex-wrap: wrap;
   display: flex;
   gap: 48px;
 }
@@ -74,4 +77,20 @@
 
 .header__link-img {
   margin-left: 5px;
+}
+@media screen and (max-width: 850px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 18px 0 0;
+    justify-content: space-between;
+    gap: 34px;
+    text-decoration: none;
+  }
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+  }
 }

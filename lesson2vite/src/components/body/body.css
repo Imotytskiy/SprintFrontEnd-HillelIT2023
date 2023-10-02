@@ -100,3 +100,64 @@
   top: -20px;
   right: 709px;
 }
+@media screen and (max-width: 850px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 36px 0 0;
+    justify-content: space-between;
+    gap: 34px;
+    text-decoration: none;
+  }
+  .offer__holder {
+    width: 348px;
+    padding-top: 80px;
+    background-image: none;
+  }
+  .offer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: url(./img/men.png) 90% 10% no-repeat;
+  }
+  .offer__title {
+    font-size: 29px;
+    line-height: 35px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .offer_animator {
+    position: absolute;
+    top: -520px;
+    right: 20px;
+  }
+
+  .offer_marketer {
+    position: absolute;
+    top: -420px;
+    right: 20px;
+  }
+  .offer_illustrator {
+    position: absolute;
+    top: -320px;
+    right: 20px;
+  }
+  .offer_programmer {
+    position: absolute;
+    top: -220px;
+    right: 20px;
+  }
+  .offer_designer {
+    position: absolute;
+    top: -120px;
+    right: 20px;
+  }
+  .offer_photographer {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+  }
+}
